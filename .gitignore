@@ -68,3 +68,9 @@ data/
 *.swo
 *.swn
 
+
+# Editor junk
+*.swp
+*.swo
+*.swn
+.DS_Store
