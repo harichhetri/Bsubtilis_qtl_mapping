@@ -51,8 +51,6 @@ rsconnect/
 # --- Project-specific ignore rules ---
 
 # Ignore all result files but keep placeholder
-results/
-!results/.gitkeep
 
 # Ignore large data files, but keep the small example TSV
 data/
@@ -62,4 +60,11 @@ data/
 .Rhistory
 .Rproj.user/
 .DS_Store
+
+!results/
+
+# Ignore editor swap/backup files
+*.swp
+*.swo
+*.swn
 
