@@ -1,7 +1,11 @@
-name: bsubtilis-qtl
+name: bsubtilis-qtl-r44
 channels:
   - conda-forge
 dependencies:
-  - r-base=4.3
+  - r-base=4.4
+  - r-lme4
+  - r-nlme
+  - llvm-openmp      # fixes macOS OpenMP/BLAS crashes
   - r-optparse
+  - r-data.table
 

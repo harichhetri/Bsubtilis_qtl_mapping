@@ -7,7 +7,12 @@ This repository contains the analysis code used for association mapping of spore
 ## Quick start
 
 ### 1️⃣ Set up the environment
-```bash
+
+# Create environment
 conda env create -f envs/environment.yml
-conda activate bsubtilis-qtl
+
+# Activate (use micromamba or conda, both work)
+conda activate bsubtilis-qtl-r44
+# OR
+micromamba activate bsubtilis-qtl-r44
 
