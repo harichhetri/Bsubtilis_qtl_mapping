@@ -1,9 +1,9 @@
 # Bacillus subtilis QTL Mapping
 
-This repository contains the example analysis code used for association mapping of spore germination–related traits in *Bacillus subtilis*, including:
+This repository provides an example analysis pipeline for association mapping of spore germination–related traits in *Bacillus subtilis*. The workflow includes:
 
-- Phenotype QC (MAD-distance based outlier removal)
-- Mixed-model variance components and heritability estimation
+- Phenotype quality control (MAD-based outlier removal)
+- Mixed-model variance component and heritability estimation
 - BLUP estimation (random effects)
 - QTL mapping using GAPIT MLM
 - Variant map visualization from VCF data
