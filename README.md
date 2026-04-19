@@ -69,13 +69,4 @@ All required input files are included in this repository and can be used to run 
 
 - genomic_data_variant_map_10k_snps_200_strains.vcf  
   VCF file used for variant visualization  
-  
-```bash
-# Create environment
-conda env create -f envs/environment.yml
-
-# Activate (conda or micromamba)
-conda activate bsubtilis-qtl-r44
-# OR
-micromamba activate bsubtilis-qtl-r44
 ```
