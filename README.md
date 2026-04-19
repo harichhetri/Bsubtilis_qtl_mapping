@@ -1,4 +1,4 @@
-# Bsubtilis QTL Mapping
+# Bacillus subtilis QTL Mapping
 
 This repository contains the example analysis code used for association mapping of spore germination–related traits in *Bacillus subtilis*, including:
 
