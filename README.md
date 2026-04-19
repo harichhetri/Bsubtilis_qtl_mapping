@@ -22,7 +22,7 @@ conda env create -f envs/environment.yml
 conda activate bsubtilis-qtl-r44
 # OR
 micromamba activate bsubtilis-qtl-r44
-
+```
 ## Run the full pipeline
 Run the following commands from the repository root directory (`Bsubtilis_qtl_mapping`):
 
