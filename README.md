@@ -25,7 +25,7 @@ micromamba activate bsubtilis-qtl-r44
 
 ## Run the full pipeline
 Run the following commands from the repository root directory (`Bsubtilis_qtl_mapping`):
-```
+
 ```bash
 Rscript 1_remove_outliers.R \
   --input phenotypes_raw.tsv \
@@ -49,6 +49,7 @@ Rscript 4_gwas_gapit.R \
 Rscript 5_plot_variant_map.R \
   --vcf genomic_data_variant_map_10k_snps_200_strains.vcf \
   --out variant_map.png
+```
 
 ## 📁 Input files
 
